@@ -1,0 +1,122 @@
+/* Style for the body */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Style for the form container */
+
+form {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+/* Style for the form labels */
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+
+/* Style for text inputs */
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+
+/* Style for the Date of Birth input with the Datepicker */
+
+#dob {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+
+/* Style for the submit button */
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+
+/* Style for the login form */
+
+
+/* You can customize this separately if needed */
+
+.login-form {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Style for links */
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+
+/* Style for the user listing page */
+
+
+/* Customize as needed */
+
+.user-listing {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+/* Style for the logout link */
+
+.logout-link {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+/* Style for error messages */
+
+.error-message {
+    color: #f00;
+    margin-top: 5px;
+}
